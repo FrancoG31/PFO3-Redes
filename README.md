@@ -52,8 +52,8 @@ tp3-redes/
 ### 1. Clonar el repositorio y acceder al proyecto
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
-cd <CARPETA_DEL_PROYECTO>
+git clone https://github.com/FrancoG31/PFO3-Redes.git
+cd PFO3-Redes
 ```
 
 ### 2. Configurar el entorno virtual e instalar librerías
