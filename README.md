@@ -33,15 +33,8 @@ tp3-redes/
 
 ---
 
-## Arquitectura y Flujo de Operación (ver diagrama.md)
+## Arquitectura y Flujo de Operación
 
-```text
-[ Cliente 1 ] ──┐                                 ┌──> [ Worker 1 ] ──┐
-[ Cliente 2 ] ──┼──> [ Servidor TCP ] ──> [ Cola ] ┼──> [ Worker 2 ] ──┼──> Respuesta al cliente origen
-[ Cliente N ] ──┘     (Hilo por cliente)          └──> [ Worker N ] ──┘
-                                                            │
-                                                     [ SQLite DB ]
-```
 
 ![Diagrama de Arquitectura](diagrama.png)
 
