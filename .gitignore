@@ -1,0 +1,24 @@
+# Archivos compilados y caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Base de datos local (generada en tiempo de ejecución)
+tareas.db
+*.sqlite3
+*.db-journal
+
+# Configuraciones de editores e IDEs
+.vscode/
+.idea/
+
+# Archivos temporales y del sistema operativo
+.DS_Store
+Thumbs.db
+tempCodeRunnerFile.py
